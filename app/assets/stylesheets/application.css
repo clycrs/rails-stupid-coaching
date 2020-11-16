@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ $gray: #F4F4F4;
+
+ h1 {
+   background: $gray;
+   color: blue;
+ }
+
+  .banner {
+   background: red;
+   h1 {
+     font-size: 50px;
+   }
+ }
